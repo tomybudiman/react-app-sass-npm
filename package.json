@@ -1,6 +1,6 @@
 {
   "name": "react-app-sass",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "React App with SASS Support",
   "preferGlobal": true,
   "scripts": {

@@ -11,7 +11,7 @@ const questionList = [
     name: 'project_name',
     message: 'Type your project name (Ex. Project Name)',
     validate: (value) => {
-      return value !== ''
+      return value !== '' && value !== '\t'
     }
   },
   {
@@ -19,7 +19,7 @@ const questionList = [
     name: 'project_id',
     message: 'Type your project id (Ex. project-id)',
     validate: (value) => {
-      return value !== ''
+      return value !== '' && value !== '\t'
     }
   },
   {
@@ -27,7 +27,7 @@ const questionList = [
     name: 'version',
     message: 'Type your app version (Ex. 1.0.0)',
     validate: (value) => {
-      return value !== ''
+      return value !== '' && value !== '\t'
     }
   }
 ]
